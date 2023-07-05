@@ -4,28 +4,28 @@
     font-family: 'Gelion Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Gelion Regular'), url('Gelion Regular.woff') format('woff');
+    src: url(../resources/fonts/Gelion\ Regular.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Gelion Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Gelion Medium'), url('Gelion Medium.woff') format('woff');
+    src: url(../resources/fonts/Gelion\ Medium.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Gelion Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Gelion Bold'), url('Gelion Bold.woff') format('woff');
+    src: url(../resources/fonts/Gelion\ Bold.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Gelion Black';
     font-style: normal;
     font-weight: normal;
-    src: local('Gelion Black'), url('Gelion Black.woff') format('woff');
+    src: url(../resources/fonts/Gelion\ Black.woff) format('woff');
 }
 
 /* General styles */
@@ -40,7 +40,6 @@
     --button-border-color: rgba(52, 81, 31, 1);
     --image-stroke-color: rgba(49, 55, 44, 1);
     --form-placeholder-color: rgba(77, 77, 77, 1);
-    --background-ellipse-color: rgba(105, 255, 201, 0.44);
 
     /* gradients */
     --linear-gradient: linear-gradient(266.79deg, #ABFF69 18.29%, #F3FF69 112.93%);
@@ -52,10 +51,26 @@
     --transition-05: all 0.5s;
     --transition-06: all 0.6s;
 
+    /* background ellipse colors */
+
+    /* left */
+    --background-left-one: rgba(208, 255, 148, 0.3);
+    --background-left-two: rgba(208, 255, 148, 0.3);
+    --background-left-three: rgba(242, 252, 126, 0.33);
+    /* right */
+    --background-right-one: rgba(105, 255, 156, 0.4);
+    --background-right-two: rgba(105, 255, 201, 0.44);
+
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--secondary-color);
+    font-family: 'Gelion Regular';
 }

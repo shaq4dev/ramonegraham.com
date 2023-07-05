@@ -25,6 +25,13 @@
 <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
+<!-- arrow top -->
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="40" height="40" rx="20" stroke="#ABFF69" stroke-width="2"/>
+<path d="M21 28V14" stroke="#ABFF69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21L21 14L28 21" stroke="#ABFF69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
 <!-- other -->
 
 <i class="fa-solid fa-circle"></i>
@@ -43,3 +50,5 @@
 <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4 6.15L0.535898 0.449999L7.4641 0.45L4 6.15Z" fill="white"/>
 </svg>
+
+<!-- pics -->

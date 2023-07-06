@@ -1,0 +1,245 @@
+/* Navigation */
+
+.nav-container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 35px;
+    line-height: 41.99px;
+}
+
+.menu-items a {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23.99px;
+    padding: 0 30px;
+}
+
+/* About */
+
+.about {
+    display: flex;
+}
+
+.about-description .heading {
+    font-family: 'Gelion Regular', sans-serif;
+    font-size: 70px;
+    line-height: 83.98px;
+    color: var(--primary-color);
+}
+
+.about-description .subheading {
+    font-family: 'Gelion Regular', sans-serif;
+    font-size: 40px;
+    line-height: 47.99px;
+}
+
+.about__paragraph--one {
+    font-size: 24px;
+    line-height: 28.79px;
+    max-width: 40%;
+    padding: 50px 0; 
+}
+
+.about__paragraph--two {
+    font-size: 18px;
+    line-height: 23.99px;
+    max-width: 54%;
+    padding: 20px 0;
+}
+
+.about__paragraph--three {
+    font-size: 18px;
+    line-height: 23.99px;
+    max-width: 54%;
+    padding-bottom: 20px 0;
+}
+
+/* image colored */
+
+.colored {
+    display: none;
+}
+
+/* image bw */
+
+.black-white {
+    display: none;
+}
+
+
+
+/* socials */
+
+.social-reach {
+    position: absolute !important;
+    
+    top: 280px;
+    right: 28px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.social-reach a {
+    color: var(--primary-color);
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+/* Experience */
+
+.experience__section--heading,
+.projects__section--heading
+ {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
+.experience__section--heading p,
+.projects__section--heading p {
+    font-size: 64px;
+    font-family: 'Gelion Regular', sans-serif;
+}
+
+.go-to-resume,
+.full-archive {
+    font-family: 'Gelion Regular', sans-serif;
+    font-size: 20px;
+    color: black;
+    background: var(--linear-gradient);
+    padding: 15px 60px;
+    border-radius: 30px;
+    transition: var(--transition-03);
+}
+
+.go-to-resume:hover,
+.full-archive:hover {
+    box-shadow: var(--linear-gradient-hover-box-shadow);
+}
+
+/* Experience body */
+
+.experience-body {
+    display: flex;
+}
+
+/* Projects */
+
+/* .top-level,
+.bottom-level {
+    display: flex;
+} */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-groups {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.top__level,
+.lower__level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower__level {
+    padding: 50px 0 150px 0;
+}
+
+
+.build-app-descript,
+.spotify-profile-descript,
+.halcyon-descript,
+.ramonegraham-descript
+ {
+    width: 560px;
+    font-family: 'Gelion Light', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 32.39px;
+}
+
+.spotify__connect--app img,
+.spotify__profile img,
+.halcyon__theme img,
+.ramone__graham--com img
+{
+    width: 560px;
+}
+
+/* description */
+
+.build-app {
+    font-size: 35px;
+    line-height: 41.99px;
+    font-family: 'Gelion Regular', sans-serif;
+    padding: 30px 0 15px 0;
+    transition: var(--transition-04);
+}
+
+.build-app:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.arrow {
+    padding-top: 10px;
+    margin-left: -10px;
+    width: 26px;
+}
+
+.halcyon-more,
+.ramone__graham--com {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.rgcom {
+    padding: 10px 0;
+}
+
+.halcyon-more svg {
+    width: 18px;
+    padding-top: 8px;
+}
+
+/* tools */
+
+.tools {
+    font-size: 14px;
+    line-height: 21.59px;
+    background: var(--button-background-color);
+    border: solid 1.5px var(--button-border-color);
+    color: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 72px;
+    margin: 100px 0 ;
+    margin-right: 8px;
+}
+
+.other-technologies a {
+    font-size: 14px;
+    line-height: 21.59px;
+    background: var(--button-darker-background-color);
+    border: solid 1.5px var(--button-border-color);
+    color: var(--primary-color);
+    padding: 5px 15px;
+    border-radius: 72px;
+    margin: 100px 0 ;
+    margin-right: 8px;
+}

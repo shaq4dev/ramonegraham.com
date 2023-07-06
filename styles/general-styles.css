@@ -1,6 +1,13 @@
 /* Gelion font import */
 
 @font-face {
+    font-family: 'Gelion Light';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../resources/fonts/Gelion\ Light.woff) format('woff');
+}
+
+@font-face {
     font-family: 'Gelion Regular';
     font-style: normal;
     font-weight: normal;
@@ -37,6 +44,7 @@
     --primary-color: rgba(171, 255, 105, 1);
     --secondary-color: #fff;
     --button-background-color: rgba(22, 30, 17, 1);
+    --button-darker-background-color: rgba(11, 11, 19, 1);
     --button-border-color: rgba(52, 81, 31, 1);
     --image-stroke-color: rgba(49, 55, 44, 1);
     --form-placeholder-color: rgba(77, 77, 77, 1);
@@ -46,6 +54,8 @@
     --linear-gradient-hover-box-shadow: 0px 0px 29px 2px rgba(171, 255, 105, 0.65);
 
     /* transitions */
+    --transition-01: all 0.1s;
+    --transition-02: all 0.2s;
     --transition-03: all 0.3s;
     --transition-04: all 0.4s;
     --transition-05: all 0.5s;
@@ -68,19 +78,16 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body {
     background: var(--background-color);
     color: var(--secondary-color);
-    font-family: 'Gelion Regular', sans-serif;
+    font-family: 'Gelion Light', sans-serif;
+    margin: 0 100px;
 }
 
 a {
     color: var(--secondary-color);
-}
-
-.about-image-wrapper,
-.contact {
-    display: none;
 }

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/general-styles.css" />
+    <link rel="stylesheet" href="../styles/fixed.css">
+    <link rel="stylesheet" href="../styles/home.css">
     <title>Ramone Graham</title>
   </head>
   <body>
@@ -12,18 +14,21 @@
     <div class="work-environment" id="page-top">
       <!-- navigation section -->
       <nav class="nav-container">
-        <p class="name">Ramone Graham</p>
+        <div><p class="name">Ramone Graham</p></div>
+        <div class="menu-items">
         <a href="#about" class="nav-about">About</a>
         <a href="#experience" class="nav-experience">Experience</a>
         <a href="#projects" class="nav-projects">Projects</a>
         <a href="#contact" class="nav-contact">Contact</a>
+        </div>
       </nav>
 
       <!-- About Section -->
 
       <section class="about" id="about">
         <!-- description -->
-        <div class="about-description">
+       <div class="words-about">
+         <div class="about-description">
           <div class="heading">Hello, I&#39;m Ramone,</div>
           <div class="subheading">Lead Engineer at Upstatement</div>
         </div>
@@ -54,9 +59,12 @@
           that covers everything you need to know to build a web app with the
           Spotify API.
         </div>
+       </div>
 
         <!-- image -->
         <div class="about-image-wrapper">
+          
+          <!-- colored -->
           <div class="colored">
             <img
               src="../resources/images/hero-colored/img-color.png"
@@ -74,6 +82,8 @@
               class="circle-fill-small"
             />
           </div>
+
+          <!-- black-white -->
           <div class="black-white">
             <img
               src="../resources/images/hero-bw/image-bw.png"
@@ -147,11 +157,15 @@
         <!-- section heading -->
         <div class="experience__section--heading">
           <p>Experience</p>
-          <button class="go-to-resume">
+          <a href="#" class="go-to-resume">
             View Full Résumé <i class="fa-solid fa-arrow-right"></i>
-          </button>
+          </a>
         </div>
-        <!-- experience left -->
+        
+
+        <!-- section-body -->
+        <div class="experience-body">
+          <!-- experience left -->
         <div class="experience__left">
           <!-- 2019 -->
             <div class="2019">
@@ -169,13 +183,13 @@
                 close collaboration, knowledge shares, and mentorship.
               </div>
               <div class="technologies">
-                <button class="tools">React</button>
-                <button class="tools">React Native</button>
-                <button class="tools">SCSS</button>
-                <button class="tools">WordPress</button><br>
-                <button class="tools">JavaScript</button>
-                <button class="tools">TypeScript</button>
-                <button class="tools">PHP</button>
+                <a href="#" class="tools">React</a>
+                <a href="#" class="tools">React Native</a>
+                <a href="#" class="tools">SCSS</a>
+                <a href="#" class="tools">WordPress</a><br>
+                <a href="#" class="tools">JavaScript</a>
+                <a href="#" class="tools">TypeScript</a>
+                <a href="#" class="tools">PHP</a>
               </div>
             </div>
             <!-- 2020 -->
@@ -193,10 +207,10 @@
                 song playback.
               </div>
               <div class="technologies">
-                <button class="tools">Ember</button>
-                <button class="tools">SCSS</button>
-                <button class="tools">JavaScript</button>
-                <button class="tools">MusicKit.js</button>
+                <a href="#" class="tools">Ember</a>
+                <a href="#" class="tools">SCSS</a>
+                <a href="#" class="tools">JavaScript</a>
+                <a href="#" class="tools">MusicKit.js</a>
               </div>
             </div>
         </div>
@@ -225,28 +239,113 @@
                 song playback.
               </div>
               <div class="technologies">
-                <button class="tools">Ember</button>
-                <button class="tools">SCSS</button>
-                <button class="tools">JavaScript</button>
-                <button class="tools">MusicKit.js</button>
+                <a href="#" class="tools">Ember</a>
+                <a href="#" class="tools">SCSS</a>
+                <a href="#" class="tools">JavaScript</a>
+                <a href="#" class="tools">MusicKit.js</a>
               </div>
         </div>
         <!-- 2021 -->
           <div class="year__2021">2021</div>
-
-        <!-- section-body -->
-        <div class="experience-body"></div>
+        </div>
       </section>
 
       <!-- Projects Section -->
 
       <section class="projects" id="projects">
         <!-- section heading -->
-        <div class="experience__section--heading">
+        <div class="projects__section--heading">
           <p>Projects</p>
-          <button class="go-to-resume">
+          <a href="../pages/project-archive.html" class="full-archive">
             View Full Project Archive <i class="fa-solid fa-arrow-right"></i>
-          </button>
+          </a>
+        </div>
+
+        <div class="project-groups">
+          <!-- pictures // descriptions -->
+          <div class="top__level">
+            <div class="left__side--tl">
+                          <!-- spotify connect -->
+            <div class="spotify__connect--app">
+              <img src="../resources/images/spotify-app.png" alt="spotify connect app" class="sca">
+            </div>
+            <p class="build-app">Build a Spotify Connected App
+              <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </p>
+            <p class="build-app-descript">Video course that teaches how to build a web app with the Spotify Web API. Topics covered include the principles of REST APIs, user auth flows, Node, Express, React, Styled Components, and more.</p>
+            </div>
+
+            <div class="right__side--tl">
+              <!-- spotify profile -->
+              <div class="spotify__profile">
+                <img src="../resources/images/spotify-profile.png" alt="spotify-profile" class="spotify-profile-img">
+                <p class="build-app">Spotify Profile
+                <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </p>
+              <p class="spotify-profile-descript">
+                Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="lower__level">
+            <div class="left__side--bl">
+              <!-- halcyon theme -->
+              <div class="halcyon__theme">
+                <img src="../resources/images/halcion-theme.png" alt="halcyon" class="halcyon-theme-img">
+                <p class="build-app">Halcyon Theme
+                <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </p>
+              <p class="halcyon-descript">
+                Minimal dark blue theme for VS Code, Sublime text, Atom, iTerm, and more.
+              </p>
+              <p class="halcyon-more">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 15V3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                100K+ Installs
+
+              </p>
+              </div>
+            </div>
+            <div class="right__side--bl">
+              <!-- ramonegraham.com -->
+              <div class="ramone__graham--com">
+                <img src="../resources/images/ramonegraham-com.png" alt="" class="ramonegraham-img">
+                <p class="build-app">Ramonegraham.com
+                <svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </p>
+              <p class="ramonegraham-descript">
+                An old portfolio site built with Gatsby with 6k+ stars and 3k+ forks.
+              </p>
+              <p class="rgcom">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.8835 14.6667L4.96683 9.98333L1.3335 6.83333L6.1335 6.41667L8.00016 2L9.86683 6.41667L14.6668 6.83333L11.0335 9.98333L12.1168 14.6667L8.00016 12.1833L3.8835 14.6667Z" fill="white"/>
+              </svg>
+              6,300
+              </p>
+              <div class="other-technologies">
+                    <a href="#">Gatsby</a>
+                    <a href="#">Style Components</a>
+                    <a href="#">Netlify</a>
+                  </div>
+              </div>
+            </div>
+            </div>
         </div>
       </section>
 

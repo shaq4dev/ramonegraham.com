@@ -140,10 +140,6 @@ form {
     color: var(--form-placeholder-color);
 }
 
-.caret-number {
-    /* padding-right: 5px; */
-}
-
 /* message */
 
 .message-wrapper {
@@ -157,6 +153,7 @@ form {
 
 textarea {
     background: var(--background-color);
+    border: solid 1px var(--secondary-color);
     border-radius: 16px;
     color: var(--secondary-color);
     font-family: 'Gelion Regular', sans-serif;
@@ -176,7 +173,7 @@ textarea::placeholder {
 /* submit button */
 
 .submit {
-    margin: 80px auto 100px auto;
+    margin: 80px auto 30px auto;
 }
 
 .submit input {

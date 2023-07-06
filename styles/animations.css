@@ -1,0 +1,138 @@
+/* CIRCLE STROKE */
+
+.circle-stroke-small {
+    /* display: none; */
+    position: absolute !important;
+    top: 275px;
+    right: 135px;
+    width: 500px;
+    animation: shrink-stroke-out 2s ease;
+}
+
+.all-img:hover .circle-stroke-small {
+    animation: shrink-stroke-in 2s ease;
+    animation-fill-mode: both;
+}
+
+/* CIRCLE FILL */
+
+.all-img img.circle-fill-small {
+    position: absolute !important;
+    top: 600px;
+    right: 120px;
+    width: 180px;
+    animation: shrink-fill-out 2s ease;
+}
+
+.all-img:hover img.circle-fill-small {
+    animation: shrink-fill-in 2s ease;
+    animation-fill-mode: both;
+}
+
+/* IMAGE */
+
+.img-col {
+    /* display: none; */
+    position: absolute !important;
+    top: 320px;
+    right: 180px;
+    filter: grayscale(100%);
+    animation: move-out 2s ease;
+    z-index: 1;
+}
+
+.all-img:hover .img-col {
+    animation: move-in 2s ease;
+    animation-fill-mode: both;
+    cursor: pointer;
+}
+
+/* Setting Keyframes */
+
+@keyframes move-in {
+    from {
+        position: absolute !important;
+        top: 320px;
+        right: 180px;
+    }
+    to {
+        position: absolute !important;
+        transform: translate(-25px, -20px);
+        filter: grayscale(0);
+    }
+}
+
+@keyframes move-out {
+    from {
+        position: absolute !important;
+        transform: translate(-25px, -20px);
+        filter: grayscale(0);
+    }
+    to {
+        position: absolute !important;
+        top: 320px;
+        right: 180px;
+    }
+}
+
+/* stroke in-out */
+
+@keyframes shrink-stroke-in {
+    from {
+        transform: scale(1);
+        
+    }
+
+    to {
+        transform: scale(.9);
+        position: absolute !important;
+        top: 255px;
+        right: 158px;
+
+    }
+}
+
+@keyframes shrink-stroke-out {
+    from {
+        
+        transform: scale(.9);
+        position: absolute !important;
+        top: 255px;
+        right: 158px;
+
+    }
+
+    to {
+        transform: scale(1);
+
+    }
+}
+
+/* fill In-out */
+
+@keyframes shrink-fill-in {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(.8);
+        position: absolute !important;
+        top: 550px;
+        right: 135px;
+    }
+}
+
+@keyframes shrink-fill-out {
+    from {
+        transform: scale(.8);
+        position: absolute !important;
+        top: 550px;
+        right: 135px;
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

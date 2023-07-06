@@ -90,4 +90,9 @@ body {
 
 a {
     color: var(--secondary-color);
+    transition: var(--transition-03);
+}
+
+a:hover {
+    color: var(--primary-color);
 }

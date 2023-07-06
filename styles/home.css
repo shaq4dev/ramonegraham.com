@@ -62,18 +62,6 @@
 
 /* image colored */
 
-.colored {
-    display: none;
-}
-
-/* image bw */
-
-.black-white {
-    display: none;
-}
-
-
-
 /* socials */
 
 .social-reach {
@@ -125,6 +113,7 @@
 .go-to-resume:hover,
 .full-archive:hover {
     box-shadow: var(--linear-gradient-hover-box-shadow);
+    color: var(--background-color);
 }
 
 /* Experience body */

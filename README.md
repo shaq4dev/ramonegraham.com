@@ -11,6 +11,7 @@
 <!-- navigation -->
 
 <i class="fa-solid fa-arrow-right"></i>
+<i class="fa-solid fa-angle-down"></i>
 
 <!--Circle Up-->
 <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">

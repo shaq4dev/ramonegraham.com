@@ -67,10 +67,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
     background: var(--background-color);
     color: var(--secondary-color);
-    font-family: 'Gelion Regular';
+    font-family: 'Gelion Regular', sans-serif;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+.about-image-wrapper,
+.contact {
+    display: none;
 }

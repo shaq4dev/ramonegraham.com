@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/general-styles.css" />
     <link rel="stylesheet" href="../styles/fixed.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <title>Ramone Graham</title>
   </head>
   <body>
@@ -352,45 +353,85 @@
       <!-- Contact Section -->
 
       <section class="contact" id="contact">
-        <p class="contact-us">Contact</p>
-        <div class="social-footer"></div>
+        <div class="contact-me">
+          <p class="contact-us">Contact</p>
+          <p class="feel-free">Feel free to contact me</p>
+          <div class="social-footer">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-dev"></i></a>
+          </div>
+          <div class="link__ramonegraham--org">
+            <a href="#" class="rgo">
+              <svg class="link-rgo" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.84375 14.875H6.125C4.91458 14.875 3.88281 14.4484 3.02969 13.5953C2.17656 12.7422 1.75 11.7104 1.75 10.5C1.75 9.28958 2.17656 8.25781 3.02969 7.40469C3.88281 6.55156 4.91458 6.125 6.125 6.125H9.84375V7.4375H6.125C5.27431 7.4375 4.55122 7.73475 3.95572 8.32923C3.36024 8.92371 3.0625 9.64558 3.0625 10.4949C3.0625 11.3441 3.36024 12.0677 3.95572 12.6656C4.55122 13.2635 5.27431 13.5625 6.125 13.5625H9.84375V14.875ZM7.10938 11.1562V9.84375H13.8906V11.1562H7.10938ZM11.1562 14.875V13.5625H14.875C15.7257 13.5625 16.4488 13.2653 17.0443 12.6708C17.6398 12.0763 17.9375 11.3544 17.9375 10.5051C17.9375 9.65588 17.6398 8.93229 17.0443 8.33437C16.4488 7.73646 15.7257 7.4375 14.875 7.4375H11.1562V6.125H14.875C16.0854 6.125 17.1172 6.55156 17.9703 7.40469C18.8234 8.25781 19.25 9.28958 19.25 10.5C19.25 11.7104 18.8234 12.7422 17.9703 13.5953C17.1172 14.4484 16.0854 14.875 14.875 14.875H11.1562Z" fill="#ABFF69"/>
+              </svg>
+              ramonegraham.org
+              <svg class="arrow-rgo" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 17L17 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M17 17L17 7L7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- form -->
         <div class="footer-contact-us">
           <form action="submit">
-            <!-- firstname -->
-            <label for="firstName">First Name</label>
-            <input
-              type="text"
-              id="firstName"
-              placeholder="Enter your full name"
-            />
-            <!-- lastname -->
-            <label for="lastName">Last Name</label>
-            <input
-              type="text"
-              id="lastName"
-              placeholder="Enter your full name"
-            />
-            <!-- email -->
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter your email" />
-            <!-- phone number -->
-            <label for="phone-number">Phone Number</label>
-            <span class="caret-number">US</span
-            ><i class="fa-solid fa-angle-down"></i>
-            <input
-              type="number"
-              id="phone number"
-              placeholder="+1(555) 000 0000"
-            />
-            <label for="message"> Message </label>
+            <div class="name-section">
+              <div class="firstName">
+              <!-- firstname -->
+              <label for="firstName">First Name</label><br>
+              <input
+                type="text"
+                id="firstName"
+                placeholder="Enter your first name"
+              />
+              </div>
+              <div class="lastName">
+                <!-- lastname -->
+              <label for="lastName">Last Name</label><br>
+              <input
+                type="text"
+                id="lastName"
+                placeholder="Enter your last name"
+              />
+              </div>
+            </div>
+            <div class="email-number">
+              <div class="e-mail">
+                <!-- email -->
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Enter your email" />
+              </div>
+            <div class="phone-num">
+              <!-- phone number -->
+              <label for="phone-number">Phone Number</label><br>
+              <div class="dial">
+                    <span class="caret-number">US</span
+                  ><i class="fa-solid fa-angle-down"></i>
+                  <input
+                    type="text"
+                    id="phone number"
+                    placeholder="+1(555) 000 0000"
+                  />
+              </div>
+            </div>
+            </div>
+            <div class="message-wrapper">
+              <label class="message" for="message"> Message </label>
             <textarea
               name="text-message"
               id="message"
               cols="60"
-              rows="10"
+              rows="8"
               placeholder="Enter your message"
             ></textarea>
-            <input type="submit" />
+            </div>
+            <div class="submit">
+              <input type="submit" />
+            </div>
           </form>
         </div>
       </section>

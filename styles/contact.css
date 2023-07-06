@@ -1,0 +1,195 @@
+.contact {
+    display: flex;
+}
+
+.contact-me {
+    width: 30%;
+    /* margin-right: 60px; */
+    /* background: red; */
+}
+
+.contact-us {
+    font-size: 64px;
+    font-family: 'Gelion Regular', sans-serif;
+    padding-bottom: 30px;
+}
+
+.feel-free {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.social-footer a {
+    font-size: 24px;
+    color: var(--primary-color);
+    padding: 10px 15px 0px 0;
+}
+
+.social-footer {
+    padding-bottom: 15px;
+}
+
+.rgo {
+    display: flex;
+    font-size: 18px;
+}
+
+.rgo svg.link-rgo {
+    width: 20px;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+.rgo svg.arrow-rgo {
+    padding-top: 6px;
+}
+
+
+/* Contact Form */
+
+.footer-contact-us {
+    padding: 115px 0;
+}
+
+form {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-section,
+.email-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-section,
+.email-number {
+    padding-bottom: 15px;
+}
+
+.firstName label,
+.lastName label,
+.e-mail label, 
+.phone-num label,
+.message {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.firstName input,
+.lastName input, 
+.e-mail input {
+    margin-top: 10px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 7px;
+    background-color: var(--background-color);
+    height: 42px;
+    width: 296px;
+    outline-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-left: 20px;
+}
+
+.firstName input::placeholder,
+.lastName input::placeholder, 
+.e-mail input::placeholder {
+    color: var(--form-placeholder-color);
+}
+
+.firstName,
+.lastName,
+.e-mail {
+    width: 296px;
+}
+
+/* phone number */
+
+.phone-num {
+    /* background: red; */
+    width: 296px;
+}
+
+.dial {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: solid 1px var(--secondary-color);
+    border-radius: 7px;
+    height: 42px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.dial input {
+    border: none;
+    background: rgba(19, 19, 25, 0);
+    width: 100%;
+    outline: none;
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+
+.dial input::placeholder {
+    color: var(--secondary-color);
+}
+
+.dial i {
+    padding: 5px;
+    font-size: 10px;
+    color: var(--form-placeholder-color);
+}
+
+.caret-number {
+    /* padding-right: 5px; */
+}
+
+/* message */
+
+.message-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    padding-bottom: 10px;
+}
+
+textarea {
+    background: var(--background-color);
+    border-radius: 16px;
+    color: var(--secondary-color);
+    font-family: 'Gelion Regular', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+    outline-color: var(--primary-color);
+}
+
+textarea::placeholder {
+    font-family: 'Gelion Regular', sans-serif;
+    font-size: 16px;
+    color: var(--form-placeholder-color);
+    
+}
+
+/* submit button */
+
+.submit {
+    margin: 80px auto 100px auto;
+}
+
+.submit input {
+    border-radius: 50px;
+    padding: 15px 137px;
+    border: none;
+    color: rgba(19, 19, 25, 1);
+    font-size: 25px;
+    background: var(--linear-gradient);
+    transition: var(--transition-03);
+}
+
+.submit input:hover {
+    cursor: pointer;
+    box-shadow: var(--linear-gradient-hover-box-shadow);
+}

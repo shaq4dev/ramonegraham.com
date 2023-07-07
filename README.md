@@ -59,3 +59,9 @@
 <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 15V3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
+
+<!-- line -->
+
+<svg width="2" height="715" viewBox="0 0 2 715" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="0.75" y1="3.27835e-08" x2="0.749969" y2="715" stroke="#ABFF69" stroke-width="1.5"/>
+</svg>

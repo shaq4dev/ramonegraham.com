@@ -65,3 +65,18 @@
 <svg width="2" height="715" viewBox="0 0 2 715" fill="none" xmlns="http://www.w3.org/2000/svg">
 <line x1="0.75" y1="3.27835e-08" x2="0.749969" y2="715" stroke="#ABFF69" stroke-width="1.5"/>
 </svg>
+
+<!-- left circ one -->
+
+<svg width="672" height="998" viewBox="0 0 672 998" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_82_3)">
+<circle cx="-82.5" cy="243.5" r="195.5" fill="#D0FF94" fill-opacity="0.3"/>
+</g>
+<defs>
+<filter id="filter0_f_82_3" x="-837" y="-511" width="1509" height="1509" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="279.5" result="effect1_foregroundBlur_82_3"/>
+</filter>
+</defs>
+</svg>

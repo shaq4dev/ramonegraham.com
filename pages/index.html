@@ -12,8 +12,10 @@
     <title>Ramone Graham</title>
   </head>
   <body>
+    
     <!-- Page environment -->
     <div class="work-environment" id="page-top">
+      
       <!-- navigation section -->
       <nav class="nav-container">
         <div><p class="name">Ramone Graham</p></div>
@@ -165,7 +167,7 @@
         <!-- section heading -->
         <div class="experience__section--heading">
           <p>Experience</p>
-          <a href="#" class="go-to-resume">
+          <a href="../resources/Greek Lex.pdf" target="_blank" class="go-to-resume">
             View Full Résumé <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
@@ -392,14 +394,14 @@
         </div>
         <!-- form -->
         <div class="footer-contact-us">
-          <form action="submit">
+          <form>
             <div class="name-section">
               <div class="firstName">
               <!-- firstname -->
               <label for="firstName">First Name</label><br>
               <input
                 type="text"
-                id="firstName"
+
                 placeholder="Enter your first name"
               />
               </div>
@@ -427,7 +429,7 @@
                   ><i class="fa-solid fa-angle-down"></i>
                   <input
                     type="text"
-                    id="phone number"
+                    id="phoneNumber"
                     placeholder="+1(555) 000 0000"
                   />
               </div>
@@ -444,7 +446,7 @@
             ></textarea>
             </div>
             <div class="submit">
-              <input type="submit" />
+              <button id="submit">Submit</button>
             </div>
           </form>
         </div>
@@ -455,5 +457,8 @@
       src="https://kit.fontawesome.com/0558da4608.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../script/contact.js"></script>
+    
   </body>
 </html>

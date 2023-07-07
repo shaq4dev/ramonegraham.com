@@ -320,3 +320,17 @@
     margin: 100px 0 ;
     margin-right: 8px;
 }
+
+/* bg circs */
+
+.left__circ--two {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+}
+
+.left__circ--three {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+}

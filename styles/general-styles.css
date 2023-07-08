@@ -42,12 +42,15 @@
     /* solid colors */
     --background-color: rgb(10, 11, 19);
     --primary-color: rgba(171, 255, 105, 1);
+    --primary-offset-color: rgba(171, 255, 105, 0.06);
     --secondary-color: #fff;
+    --tertiary-color: rgba(113, 113, 113, 1);
     --button-background-color: rgba(22, 30, 17, 1);
     --button-darker-background-color: rgba(11, 11, 19, 1);
     --button-border-color: rgba(52, 81, 31, 1);
     --image-stroke-color: rgba(49, 55, 44, 1);
     --form-placeholder-color: rgba(77, 77, 77, 1);
+    --hr-color: rgba(67, 68, 73, 1);
 
     /* gradients */
     --linear-gradient: linear-gradient(266.79deg, #ABFF69 18.29%, #F3FF69 112.93%);

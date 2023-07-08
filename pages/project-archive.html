@@ -5,9 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/general-styles.css" />
+    <link rel="stylesheet" href="../styles/app-projects.css" />
     <title>All Projects</title>
   </head>
   <body>
+    <!-- webpage container -->
+    <div class="webpage-container" id="webpage-container">
+      <a href="../pages/index.html" class="name-head">
+        <i class="fa-solid fa-arrow-left"></i> Ramone Graham
+      </a>
+      <!-- absolute header -->
+      <div class="absolute__header">
+        <div class="title">All Projects</div>
+        <div class="filter">
+          <p class="filter__by">Filter by</p>
+          <button class="complete">Complete</button>
+          <button class="in__progress">In Progress</button>
+        </div>
+      </div>
+
+      <!-- project list heading -->
+
+      <div class="project__list--heading">
+        <div class="year__column">
+          Year <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="project__column">
+          Project <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="made__at__column">
+          Made at <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="build__by__column">
+          Build by <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="link__column">
+          Link <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+      <hr class="column-hr" />
+
+      <!-- PROJECT LIST -->
+
+      <!-- Projects -->
+
+      <div class="project__wrapper">
+        <!-- data for all projects -->
+        <div class="project__data">
+          <div class="project__year">2022</div>
+          <div class="project__project">
+            Harvard Business School Design System
+          </div>
+          <div class="project__made--at">Upstatement</div>
+          <div class="project__build--by">
+            <div><a href="#" class="build_by_link">Storybook</a></div>
+            <div><a href="#" class="build_by_link">React</a></div>
+            <div><a href="#" class="build_by_link">TypeScript</a></div>
+            <div><a href="#" class="build_by_link">Python</a></div>
+            <div><a href="#" class="build_by_link">Bash</a></div>
+            <div><a href="#" class="build_by_link">JavaScript</a></div>
+            <div><a href="#" class="build_by_link">Terminal</a></div>
+          </div>
+          <div class="project__link">
+            <a href="#">
+              apps.apple.com
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 17L17 7"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17 17L17 7L7 7"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <hr class="project-hr" />
+      </div>
+
+      <!-- end of webpage-container -->
+    </div>
+
     <!-- all scripts -->
     <script
       src="https://kit.fontawesome.com/0558da4608.js"

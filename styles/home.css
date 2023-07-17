@@ -8,6 +8,15 @@
     align-items: center;
 }
 
+
+/* nav-mob */
+
+.hamburger, 
+.times-burger,
+.mobile-menu {
+    display: none;
+}
+
 .name {
     font-size: 35px;
     line-height: 41.99px;

@@ -1,0 +1,180 @@
+@media screen and (max-width: 414px){
+
+    body {
+      /* background: red; */
+      margin: 10px 50px;
+    }
+
+    /* general styles */
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .hamburger {
+        display: block;
+        padding-top: 8px;
+        font-size: 30px;
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+
+    .times-burger {
+        /* display: block; */
+        font-size: 65px;
+        color: var(--primary-color);
+    }
+
+    .menu-items-dropdown {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background: var(--primary-color);
+        border-radius: 0 0 10px 10px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+
+    .mobile-menu>a {
+        color: black;
+        /* margin: 10px auto; */
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .mobile-menu>a:hover {
+        background: lightgreen;
+        cursor: pointer;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    /* navigation */
+
+    .social-reach {
+        flex-direction: row;
+        top: 12%;
+        right: 23%;
+    }
+
+    .social-reach .fa-brands {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    /* social reach */
+
+
+    .words-about .heading {
+        font-size: 70px;
+        text-align: center;
+        line-height: 70px;
+    }
+
+    .words-about .subheading {
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .about__paragraph--one {
+        max-width: 100%;
+        font-size: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .about__paragraph--two {
+        padding-top: 0;
+        max-width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .about__paragraph--three {
+        padding-top: 15px;
+        max-width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* pargraphs */
+
+    .experience__section--headng a {
+        display: inline-block;
+        background: red;
+    }
+
+    .experience__section--headng {
+        display: flex;
+        flex-direction: column;
+        background: blue;
+    }
+
+    .contact,
+    .projects,
+    .about-image-wrapper,
+    .experience__middle
+     {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 390px) {
+
+    .hamburger,
+    .times-burger {
+        font-size: 20px;
+    }
+
+    /* navigation */
+
+    .social-reach {
+        flex-direction: row;
+        top: 12%;
+        right: 20%;
+    }
+
+    .social-reach .fa-brands {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    /* social reach */
+}
+
+@media (max-width: 375px){
+    .hamburger,
+    .times-burger {
+        font-size: 20px;
+    }
+
+    /* navigation */
+    
+        .social-reach {
+            flex-direction: row;
+            top: 12%;
+            right: 20%;
+        }
+    
+        .social-reach .fa-brands {
+            font-size: 15px;
+            padding: 15px;
+        }
+    
+        /* social reach */
+}
